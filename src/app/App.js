@@ -22,6 +22,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="articles" element={<Articles />} />
     <Route path="categories" element={<Categories />} />
     <Route path="profile" element={<Profile />} />
+    <Route path="articles/:title" element={<Article />} />
+    <Route path="authors/:name" element={<Author />} />
 
   </Route>
 ))
